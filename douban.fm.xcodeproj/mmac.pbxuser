@@ -17,8 +17,8 @@
 	256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {686, 2080}}";
-			sepNavSelRange = "{2422, 0}";
-			sepNavVisRange = "{2064, 759}";
+			sepNavSelRange = "{2536, 0}";
+			sepNavVisRange = "{2062, 730}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -91,6 +91,7 @@
 			8CB0462711E5FCA100D10595 /* PBXTextBookmark */ = 8CB0462711E5FCA100D10595 /* PBXTextBookmark */;
 			8CB0462811E5FCA100D10595 /* PBXTextBookmark */ = 8CB0462811E5FCA100D10595 /* PBXTextBookmark */;
 			8CB0462911E5FCA100D10595 /* PBXTextBookmark */ = 8CB0462911E5FCA100D10595 /* PBXTextBookmark */;
+			8CB0462E11E6008F00D10595 /* PBXTextBookmark */ = 8CB0462E11E6008F00D10595 /* PBXTextBookmark */;
 			8CBD309811E45E6F000D753C = 8CBD309811E45E6F000D753C /* PlistBookmark */;
 			8CBD309911E45E6F000D753C = 8CBD309911E45E6F000D753C /* PBXTextBookmark */;
 			8CBD309B11E45E6F000D753C = 8CBD309B11E45E6F000D753C /* PBXTextBookmark */;
@@ -163,7 +164,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
 		name = "douban_fmAppDelegate.m: 61";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 1180;
@@ -200,7 +201,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
 		name = "douban_fmAppDelegate.m: 24";
 		rLen = 0;
-		rLoc = 497;
+		rLoc = 499;
 		rType = 0;
 		vrLen = 498;
 		vrLoc = 278;
@@ -210,7 +211,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
 		name = "douban_fmAppDelegate.m: 99";
 		rLen = 0;
-		rLoc = 2270;
+		rLoc = 2274;
 		rType = 0;
 		vrLen = 743;
 		vrLoc = 2064;
@@ -230,7 +231,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
 		name = "douban_fmAppDelegate.m: 106";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2405;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 2064;
@@ -240,10 +241,20 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
 		name = "douban_fmAppDelegate.m: 105";
 		rLen = 0;
-		rLoc = 2422;
+		rLoc = 2395;
 		rType = 0;
 		vrLen = 759;
 		vrLoc = 2064;
+	};
+	8CB0462E11E6008F00D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
+		name = "douban_fmAppDelegate.m: 111";
+		rLen = 0;
+		rLoc = 2540;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 2062;
 	};
 	8CBD309811E45E6F000D753C /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -272,7 +283,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
 		name = "douban_fmAppDelegate.m: 64";
 		rLen = 0;
-		rLoc = 1678;
+		rLoc = 1682;
 		rType = 0;
 		vrLen = 695;
 		vrLoc = 1180;
@@ -282,7 +293,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
 		name = "douban_fmAppDelegate.m: 60";
 		rLen = 0;
-		rLoc = 1366;
+		rLoc = 1370;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 1180;

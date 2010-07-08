@@ -303,7 +303,7 @@
 							<real>231</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>405 153 1000 810 0 0 1680 1028 </string>
+						<string>481 139 1000 810 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -333,7 +333,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8CB0462911E5FCA100D10595</string>
+										<string>8CB0462E11E6008F00D10595</string>
 										<key>history</key>
 										<array>
 											<string>8C9DD51E11E2CF3900BDDE83</string>
@@ -355,7 +355,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {747, 602}}</string>
 								<key>RubberWindowFrame</key>
-								<string>405 153 1000 810 0 0 1680 1028 </string>
+								<string>481 139 1000 810 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -375,7 +375,7 @@
 								<key>Frame</key>
 								<string>{{0, 607}, {747, 162}}</string>
 								<key>RubberWindowFrame</key>
-								<string>405 153 1000 810 0 0 1680 1028 </string>
+								<string>481 139 1000 810 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -539,15 +539,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>8CB0462F11E6008F00D10595</string>
 		<string>8CB0462511E5FBDE00D10595</string>
 		<string>8CB0462611E5FBDE00D10595</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>8C9DD46911E2CCE900BDDE83</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/mmac/codes/Douban.fm.osx/douban.fm.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>405 153 1000 810 0 0 1680 1028 </string>
+	<string>481 139 1000 810 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

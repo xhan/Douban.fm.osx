@@ -16,7 +16,7 @@
 @synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	NSLog(@"finish launching");
+//	NSLog(@"finish launching");
 	[webView setFrameLoadDelegate:self];
 	
 	[webView setMainFrameURL:@"http://douban.fm/radio"];
@@ -38,7 +38,7 @@
 	 */
 	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain]; 
 	[statusItem setMenu:statusMenu];
-	[statusItem setTitle:@"电台"];
+	[statusItem setTitle:@"*FM*"];
 	/*
 	 - (void)setImage:(NSImage *)image
 	 -(void)setAlternateImage:(NSImage *)image
@@ -101,7 +101,6 @@
 
 - (void)webView:(WebView *)sender didReceiveTitle:(NSString *)title forFrame:(WebFrame *)frame 
 {
-	//	NSLog(@"title: %@",title);
 	//@" - 豆瓣电台" or 豆瓣电台
 	[window setTitle:title]; 
 	
@@ -124,13 +123,6 @@
 }
 
 
-#pragma mark -
-
-/*
-- (BOOL)validateMenuItem:(NSMenuItem *)item {
-	return YES;
-}
-*/
 @end
 
 
