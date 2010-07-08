@@ -9,28 +9,28 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {599, 640}}";
-			sepNavSelRange = "{342, 0}";
-			sepNavVisRange = "{129, 636}";
+			sepNavIntBoundsRect = "{{0, 0}, {686, 640}}";
+			sepNavSelRange = "{256, 8}";
+			sepNavVisRange = "{0, 744}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {599, 2128}}";
-			sepNavSelRange = "{1366, 0}";
-			sepNavVisRange = "{1180, 846}";
+			sepNavIntBoundsRect = "{{0, 0}, {686, 2080}}";
+			sepNavSelRange = "{2422, 0}";
+			sepNavVisRange = "{2064, 759}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 8C9DD46211E2CCE500BDDE83 /* douban.fm */;
-		activeTarget = 8D1107260486CEB800E47090 /* douban.fm */;
+		activeExecutable = 8C9DD46211E2CCE500BDDE83 /* Douban.FM */;
+		activeTarget = 8D1107260486CEB800E47090 /* Douban.FM */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* douban.fm */,
+			8D1107260486CEB800E47090 /* Douban.FM */,
 		);
 		codeSenseManager = 8C9DD46C11E2CCE900BDDE83 /* Code sense */;
 		executables = (
-			8C9DD46211E2CCE500BDDE83 /* douban.fm */,
+			8C9DD46211E2CCE500BDDE83 /* Douban.FM */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -38,7 +38,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					421,
+					508,
 					20,
 					48,
 					43,
@@ -77,22 +77,30 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 300179085;
-			PBXWorkspaceStateSaveDate = 300179085;
+			PBXPerProjectTemplateStateSaveDate = 300284009;
+			PBXWorkspaceStateSaveDate = 300284009;
 		};
 		perUserProjectItems = {
-			8C9DD51E11E2CF3900BDDE83 /* PBXTextBookmark */ = 8C9DD51E11E2CF3900BDDE83 /* PBXTextBookmark */;
-			8C9DD67311E34BC600BDDE83 /* PBXBookmark */ = 8C9DD67311E34BC600BDDE83 /* PBXBookmark */;
-			8CBD309811E45E6F000D753C /* PlistBookmark */ = 8CBD309811E45E6F000D753C /* PlistBookmark */;
-			8CBD309911E45E6F000D753C /* PBXTextBookmark */ = 8CBD309911E45E6F000D753C /* PBXTextBookmark */;
-			8CBD309B11E45E6F000D753C /* PBXTextBookmark */ = 8CBD309B11E45E6F000D753C /* PBXTextBookmark */;
-			8CBD30AB11E45FAE000D753C /* PBXTextBookmark */ = 8CBD30AB11E45FAE000D753C /* PBXTextBookmark */;
+			8C9DD51E11E2CF3900BDDE83 = 8C9DD51E11E2CF3900BDDE83 /* PBXTextBookmark */;
+			8C9DD67311E34BC600BDDE83 = 8C9DD67311E34BC600BDDE83 /* PBXBookmark */;
+			8CB0461011E5F8FB00D10595 /* PBXTextBookmark */ = 8CB0461011E5F8FB00D10595 /* PBXTextBookmark */;
+			8CB0462011E5FBDE00D10595 /* PBXTextBookmark */ = 8CB0462011E5FBDE00D10595 /* PBXTextBookmark */;
+			8CB0462111E5FBDE00D10595 /* PBXTextBookmark */ = 8CB0462111E5FBDE00D10595 /* PBXTextBookmark */;
+			8CB0462211E5FBDE00D10595 /* PBXTextBookmark */ = 8CB0462211E5FBDE00D10595 /* PBXTextBookmark */;
+			8CB0462311E5FBDE00D10595 /* PBXTextBookmark */ = 8CB0462311E5FBDE00D10595 /* PBXTextBookmark */;
+			8CB0462711E5FCA100D10595 /* PBXTextBookmark */ = 8CB0462711E5FCA100D10595 /* PBXTextBookmark */;
+			8CB0462811E5FCA100D10595 /* PBXTextBookmark */ = 8CB0462811E5FCA100D10595 /* PBXTextBookmark */;
+			8CB0462911E5FCA100D10595 /* PBXTextBookmark */ = 8CB0462911E5FCA100D10595 /* PBXTextBookmark */;
+			8CBD309811E45E6F000D753C = 8CBD309811E45E6F000D753C /* PlistBookmark */;
+			8CBD309911E45E6F000D753C = 8CBD309911E45E6F000D753C /* PBXTextBookmark */;
+			8CBD309B11E45E6F000D753C = 8CBD309B11E45E6F000D753C /* PBXTextBookmark */;
+			8CBD30AB11E45FAE000D753C = 8CBD30AB11E45FAE000D753C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8C9DD46B11E2CCE900BDDE83 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	8C9DD46211E2CCE500BDDE83 /* douban.fm */ = {
+	8C9DD46211E2CCE500BDDE83 /* Douban.FM */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -115,7 +123,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = douban.fm;
+		name = Douban.FM;
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
@@ -149,6 +157,93 @@
 	8C9DD67311E34BC600BDDE83 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */;
+	};
+	8CB0461011E5F8FB00D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
+		name = "douban_fmAppDelegate.m: 61";
+		rLen = 0;
+		rLoc = 1412;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 1180;
+	};
+	8CB0461B11E5F94500D10595 /* README */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {599, 360}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 193}";
+		};
+	};
+	8CB0462011E5FBDE00D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8CB0461B11E5F94500D10595 /* README */;
+		name = "README: 5";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	8CB0462111E5FBDE00D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
+		name = "douban_fmAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 342;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 129;
+	};
+	8CB0462211E5FBDE00D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
+		name = "douban_fmAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 497;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 278;
+	};
+	8CB0462311E5FBDE00D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
+		name = "douban_fmAppDelegate.m: 99";
+		rLen = 0;
+		rLoc = 2270;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 2064;
+	};
+	8CB0462711E5FCA100D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
+		name = "douban_fmAppDelegate.h: 12";
+		rLen = 8;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 0;
+	};
+	8CB0462811E5FCA100D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
+		name = "douban_fmAppDelegate.m: 106";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 2064;
+	};
+	8CB0462911E5FCA100D10595 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
+		name = "douban_fmAppDelegate.m: 105";
+		rLen = 0;
+		rLoc = 2422;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 2064;
 	};
 	8CBD309811E45E6F000D753C /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -192,10 +287,10 @@
 		vrLen = 846;
 		vrLoc = 1180;
 	};
-	8D1107260486CEB800E47090 /* douban.fm */ = {
+	8D1107260486CEB800E47090 /* Douban.FM */ = {
 		activeExec = 0;
 		executables = (
-			8C9DD46211E2CCE500BDDE83 /* douban.fm */,
+			8C9DD46211E2CCE500BDDE83 /* Douban.FM */,
 		);
 	};
 }

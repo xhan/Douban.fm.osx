@@ -101,8 +101,9 @@
 
 - (void)webView:(WebView *)sender didReceiveTitle:(NSString *)title forFrame:(WebFrame *)frame 
 {
-		NSLog(@"title: %@",title);
+	//	NSLog(@"title: %@",title);
 	//@" - 豆瓣电台" or 豆瓣电台
+	[window setTitle:title]; 
 	
 }
 
