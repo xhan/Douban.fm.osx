@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "豆瓣电台";
+
+"CFBundleName" = "豆瓣电台";

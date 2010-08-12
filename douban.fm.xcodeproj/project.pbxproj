@@ -3,15 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* douban_fmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */; };
+		8C5A20E61213942700F5FA34 /* douban.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8C5A20E51213942700F5FA34 /* douban.icns */; };
 		8C9DD47011E2CDEA00BDDE83 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9DD46F11E2CDEA00BDDE83 /* WebKit.framework */; };
-		8C9DD52C11E2D02F00BDDE83 /* doubanfm.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */; };
-		8CB0461C11E5F94500D10595 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0461B11E5F94500D10595 /* README */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -28,9 +27,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8C5A20E51213942700F5FA34 /* douban.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = douban.icns; sourceTree = "<group>"; };
+		8C5A20EF1213A1F700F5FA34 /* zh_cn */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_cn; path = zh_cn.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8C5A20FB1213B20700F5FA34 /* zh_cn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_cn; path = zh_cn.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C9DD46F11E2CDEA00BDDE83 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = doubanfm.icns; sourceTree = "<group>"; };
-		8CB0461B11E5F94500D10595 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* douban_fm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "douban_fm-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Douban.FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.FM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,8 +108,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8CB0461B11E5F94500D10595 /* README */,
-				8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */,
+				8C5A20E51213942700F5FA34 /* douban.icns */,
 				8D1107310486CEB800E47090 /* douban_fm-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -153,8 +152,16 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "douban.fm" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_cn,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* douban.fm */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -171,8 +178,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				8C9DD52C11E2D02F00BDDE83 /* doubanfm.icns in Resources */,
-				8CB0461C11E5F94500D10595 /* README in Resources */,
+				8C5A20E61213942700F5FA34 /* douban.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +201,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				089C165DFE840E0CC02AAC07 /* English */,
+				8C5A20FB1213B20700F5FA34 /* zh_cn */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -203,6 +210,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1DDD58150DA1D0A300B32029 /* English */,
+				8C5A20EF1213A1F700F5FA34 /* zh_cn */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -214,6 +222,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -224,6 +233,7 @@
 				INFOPLIST_FILE = "douban_fm-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Douban.FM;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -244,7 +254,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -253,6 +263,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};

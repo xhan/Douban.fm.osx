@@ -18,7 +18,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 //	NSLog(@"finish launching");
 	[webView setFrameLoadDelegate:self];
-	
+	[webView setResourceLoadDelegate:self];
 	[webView setMainFrameURL:@"http://douban.fm/radio"];
 	
 	
@@ -36,18 +36,17 @@
 	 2. NSSquareStatusItemLength – Sets the status item length to the status bar thickness.
 
 	 */
+	
+	/*
 	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain]; 
 	[statusItem setMenu:statusMenu];
 	[statusItem setTitle:@"*FM*"];
-	/*
-	 - (void)setImage:(NSImage *)image
-	 -(void)setAlternateImage:(NSImage *)image
-	 */
+
 	
 	[statusItem setHighlightMode:YES];
 	[itemEnableDock setTarget:self];
 	[itemEnableDock setAction:@selector(onItemEnableDockClick:)];
-	
+	*/
 }
 
 - (void)onItemEnableDockClick:(id)sender
@@ -122,6 +121,26 @@
 	
 }
 
+
+#pragma mark -
+#pragma mark resource Delegates
+/*
+-(void)webView:(WebView *)sender
+	  resource:(id)identifier
+	didFinishLoadingFromDataSource:(WebDataSource *)dataSource
+{
+//    resourceCompletedCount++;
+    // Update the status message
+  //  [self updateResourceStatus];
+	NSLog(@"finish loading resource :%@",dataSource);
+//	NSLog(@"%@",[dataSource data]);
+	WebResource* resource = [dataSource mainResource];
+//	NSLog(@"%@ - %@ - %@",[resource MIMEType],[resource textEncodingName], [resource URL]);
+	NSString* str = [[NSString alloc] initWithData:[dataSource data] encoding:NSUTF8StringEncoding];
+	NSLog(@"%@",str);
+	[str release];
+}
+ */
 
 @end
 
