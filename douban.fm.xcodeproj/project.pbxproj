@@ -31,6 +31,11 @@
 		8C5A20EF1213A1F700F5FA34 /* zh_cn */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_cn; path = zh_cn.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8C5A20FB1213B20700F5FA34 /* zh_cn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_cn; path = zh_cn.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C9DD46F11E2CDEA00BDDE83 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8CFF1B811214E61A003B3194 /* DoubanICON.512x512-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoubanICON.512x512-75.png"; sourceTree = "<group>"; };
+		8CFF1B821214E636003B3194 /* 1281578356_songbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1281578356_songbird.png; sourceTree = "<group>"; };
+		8CFF1B831214E636003B3194 /* 1281579857_Folder-Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1281579857_Folder-Music.png"; sourceTree = "<group>"; };
+		8CFF1B841214E636003B3194 /* 1281579938_iMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1281579938_iMusic.png; sourceTree = "<group>"; };
+		8CFF1B851214E636003B3194 /* 1281579984_music.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1281579984_music.gif; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* douban_fm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "douban_fm-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Douban.FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.FM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +92,7 @@
 		29B97314FDCFA39411CA2CEA /* douban.fm */ = {
 			isa = PBXGroup;
 			children = (
+				8CFF1B7F1214E5EF003B3194 /* Not Included In Project */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -123,6 +129,18 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CFF1B7F1214E5EF003B3194 /* Not Included In Project */ = {
+			isa = PBXGroup;
+			children = (
+				8CFF1B821214E636003B3194 /* 1281578356_songbird.png */,
+				8CFF1B831214E636003B3194 /* 1281579857_Folder-Music.png */,
+				8CFF1B841214E636003B3194 /* 1281579938_iMusic.png */,
+				8CFF1B851214E636003B3194 /* 1281579984_music.gif */,
+				8CFF1B811214E61A003B3194 /* DoubanICON.512x512-75.png */,
+			);
+			name = "Not Included In Project";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

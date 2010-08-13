@@ -1,7 +1,7 @@
 /* Localized versions of Info.plist keys */
 
-"CFBundleDisplayName" = "Douban FM";
+CFBundleDisplayName = "Douban FM display";
 
 
 
-"CFBundleName" = "Douban FM";
+CFBundleName = "Douban FM";

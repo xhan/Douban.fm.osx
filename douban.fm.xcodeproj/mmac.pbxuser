@@ -2,23 +2,30 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {686, 518}}";
-			sepNavSelRange = "{85, 29}";
-			sepNavVisRange = "{0, 114}";
+			sepNavIntBoundsRect = "{{0, 0}, {686, 506}}";
+			sepNavSelRange = "{85, 0}";
+			sepNavVisRange = "{0, 118}";
 		};
 	};
 	256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {686, 640}}";
+			sepNavIntBoundsRect = "{{0, 0}, {686, 624}}";
 			sepNavSelRange = "{256, 8}";
-			sepNavVisRange = "{0, 680}";
+			sepNavVisRange = "{0, 673}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {686, 2480}}";
+			sepNavIntBoundsRect = "{{0, 0}, {686, 2496}}";
 			sepNavSelRange = "{3377, 0}";
-			sepNavVisRange = "{2648, 760}";
+			sepNavVisRange = "{2647, 761}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* douban_fm_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {686, 518}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 149}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -26,7 +33,6 @@
 		activeExecutable = 8C9DD46211E2CCE500BDDE83 /* Douban.FM */;
 		activeTarget = 8D1107260486CEB800E47090 /* Douban.FM */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* Douban.FM */,
 		);
 		codeSenseManager = 8C9DD46C11E2CCE900BDDE83 /* Code sense */;
 		executables = (
@@ -77,37 +83,30 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 303271269;
-			PBXWorkspaceStateSaveDate = 303271269;
+			PBXPerProjectTemplateStateSaveDate = 303356278;
+			PBXWorkspaceStateSaveDate = 303356278;
 		};
 		perUserProjectItems = {
-			8C19474E11E6067500913687 = 8C19474E11E6067500913687 /* PBXTextBookmark */;
-			8C5A20D212138E8600F5FA34 /* PBXTextBookmark */ = 8C5A20D212138E8600F5FA34 /* PBXTextBookmark */;
-			8C5A20D312138E8600F5FA34 /* PBXTextBookmark */ = 8C5A20D312138E8600F5FA34 /* PBXTextBookmark */;
-			8C5A20D412138E8600F5FA34 /* PBXBookmark */ = 8C5A20D412138E8600F5FA34 /* PBXBookmark */;
-			8C5A20D512138E8600F5FA34 /* PBXBookmark */ = 8C5A20D512138E8600F5FA34 /* PBXBookmark */;
-			8C5A20D612138E8600F5FA34 /* PBXBookmark */ = 8C5A20D612138E8600F5FA34 /* PBXBookmark */;
-			8C5A20EA1213944600F5FA34 /* PBXBookmark */ = 8C5A20EA1213944600F5FA34 /* PBXBookmark */;
-			8C5A20EB1213944600F5FA34 /* PBXBookmark */ = 8C5A20EB1213944600F5FA34 /* PBXBookmark */;
-			8C5A20FF1213BCA200F5FA34 /* PBXBookmark */ = 8C5A20FF1213BCA200F5FA34 /* PBXBookmark */;
-			8C5A21001213BCA200F5FA34 /* PBXTextBookmark */ = 8C5A21001213BCA200F5FA34 /* PBXTextBookmark */;
-			8C5A21011213BCA200F5FA34 /* PBXTextBookmark */ = 8C5A21011213BCA200F5FA34 /* PBXTextBookmark */;
-			8C5A21021213BCA200F5FA34 /* PBXTextBookmark */ = 8C5A21021213BCA200F5FA34 /* PBXTextBookmark */;
-			8C5A21031213BCA200F5FA34 /* PlistBookmark */ = 8C5A21031213BCA200F5FA34 /* PlistBookmark */;
-			8C5A21041213BCA200F5FA34 /* PlistBookmark */ = 8C5A21041213BCA200F5FA34 /* PlistBookmark */;
-			8C5A210B1213BE8500F5FA34 /* PlistBookmark */ = 8C5A210B1213BE8500F5FA34 /* PlistBookmark */;
-			8C5A210C1213BE8500F5FA34 /* PBXTextBookmark */ = 8C5A210C1213BE8500F5FA34 /* PBXTextBookmark */;
-			8C5A210D1213BE8500F5FA34 /* PBXTextBookmark */ = 8C5A210D1213BE8500F5FA34 /* PBXTextBookmark */;
-			8C5A210E1213BE8500F5FA34 /* PBXTextBookmark */ = 8C5A210E1213BE8500F5FA34 /* PBXTextBookmark */;
-			8C5A21151213BFAE00F5FA34 /* PlistBookmark */ = 8C5A21151213BFAE00F5FA34 /* PlistBookmark */;
-			8C5A21161213BFAE00F5FA34 /* PBXTextBookmark */ = 8C5A21161213BFAE00F5FA34 /* PBXTextBookmark */;
-			8C5A21171213BFAE00F5FA34 /* PBXTextBookmark */ = 8C5A21171213BFAE00F5FA34 /* PBXTextBookmark */;
-			8C5A21181213BFAE00F5FA34 /* PBXTextBookmark */ = 8C5A21181213BFAE00F5FA34 /* PBXTextBookmark */;
-			8C9DD51E11E2CF3900BDDE83 = 8C9DD51E11E2CF3900BDDE83 /* PBXTextBookmark */;
-			8C9DD67311E34BC600BDDE83 = 8C9DD67311E34BC600BDDE83 /* PBXBookmark */;
-			8CB0462711E5FCA100D10595 = 8CB0462711E5FCA100D10595 /* PBXTextBookmark */;
-			8CBD309811E45E6F000D753C = 8CBD309811E45E6F000D753C /* PlistBookmark */;
-			8CD67A8411E869C7004D1095 = 8CD67A8411E869C7004D1095 /* PBXTextBookmark */;
+			8C5A21D11213D9B000F5FA34 = 8C5A21D11213D9B000F5FA34 /* PBXTextBookmark */;
+			8C5A21D21213D9B000F5FA34 = 8C5A21D21213D9B000F5FA34 /* PBXTextBookmark */;
+			8C5A21D31213D9B000F5FA34 = 8C5A21D31213D9B000F5FA34 /* PlistBookmark */;
+			8C5A21D41213D9B000F5FA34 = 8C5A21D41213D9B000F5FA34 /* PBXBookmark */;
+			8C5A21D51213D9B000F5FA34 = 8C5A21D51213D9B000F5FA34 /* PBXTextBookmark */;
+			8C5A21D61213D9B000F5FA34 = 8C5A21D61213D9B000F5FA34 /* PBXTextBookmark */;
+			8C5A21D71213D9B000F5FA34 = 8C5A21D71213D9B000F5FA34 /* PBXTextBookmark */;
+			8C5A21D81213D9B000F5FA34 = 8C5A21D81213D9B000F5FA34 /* PBXTextBookmark */;
+			8C5A21D91213D9B000F5FA34 = 8C5A21D91213D9B000F5FA34 /* PBXTextBookmark */;
+			8C5A21EE1213DE0600F5FA34 = 8C5A21EE1213DE0600F5FA34 /* PBXTextBookmark */;
+			8C5A21EF1213DE0600F5FA34 = 8C5A21EF1213DE0600F5FA34 /* PBXBookmark */;
+			8C5A21F01213DE0600F5FA34 = 8C5A21F01213DE0600F5FA34 /* PlistBookmark */;
+			8C5A21F11213DE0600F5FA34 = 8C5A21F11213DE0600F5FA34 /* PBXTextBookmark */;
+			8C5A21F21213DE0600F5FA34 = 8C5A21F21213DE0600F5FA34 /* PBXTextBookmark */;
+			8C5A22031213DE3500F5FA34 = 8C5A22031213DE3500F5FA34 /* PBXTextBookmark */;
+			8C5A220B1213DF2100F5FA34 = 8C5A220B1213DF2100F5FA34 /* PBXTextBookmark */;
+			8C5A220C1213DF2100F5FA34 = 8C5A220C1213DF2100F5FA34 /* PBXTextBookmark */;
+			8C5A220D1213DF2100F5FA34 = 8C5A220D1213DF2100F5FA34 /* PBXTextBookmark */;
+			8CFF1B631214D979003B3194 /* PBXTextBookmark */ = 8CFF1B631214D979003B3194 /* PBXTextBookmark */;
+			8CFF1B801214E603003B3194 /* PBXTextBookmark */ = 8CFF1B801214E603003B3194 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8C9DD46B11E2CCE900BDDE83 /* Source Control */;
 		userBookmarkGroup = 8C5A20BA12138D6400F5FA34 /* PBXBookmarkGroup */;
@@ -121,16 +120,6 @@
 			sepNavVisRange = "{0, 238}";
 		};
 	};
-	8C19474E11E6067500913687 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
-		name = "douban_fmAppDelegate.m: 69";
-		rLen = 0;
-		rLoc = 1645;
-		rType = 0;
-		vrLen = 1022;
-		vrLoc = 995;
-	};
 	8C5A20BA12138D6400F5FA34 /* PBXBookmarkGroup */ = {
 		isa = PBXBookmarkGroup;
 		children = (
@@ -138,58 +127,11 @@
 		);
 		name = Root;
 	};
-	8C5A20CE12138E2800F5FA34 /* birdIcon.icns */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.icns;
-		name = birdIcon.icns;
-		path = /Users/mmac/codes/Douban.fm.osx/birdIcon.icns;
-		sourceTree = "<absolute>";
-	};
-	8C5A20D212138E8600F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
-		name = "douban_fmAppDelegate.m: 84";
-		rLen = 0;
-		rLoc = 2011;
-		rType = 0;
-		vrLen = 1029;
-		vrLoc = 1646;
-	};
-	8C5A20D312138E8600F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 114;
-		rType = 0;
-		vrLen = 45;
-		vrLoc = 0;
-	};
-	8C5A20D412138E8600F5FA34 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8C5A20CE12138E2800F5FA34 /* birdIcon.icns */;
-	};
-	8C5A20D512138E8600F5FA34 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */;
-	};
-	8C5A20D612138E8600F5FA34 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */;
-	};
-	8C5A20EA1213944600F5FA34 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8C5A20E51213942700F5FA34 /* douban.icns */;
-	};
-	8C5A20EB1213944600F5FA34 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8C5A20E51213942700F5FA34 /* douban.icns */;
-	};
 	8C5A20FB1213B20700F5FA34 /* zh_cn */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {686, 518}}";
-			sepNavSelRange = "{102, 0}";
-			sepNavVisRange = "{0, 102}";
+			sepNavIntBoundsRect = "{{0, 0}, {686, 512}}";
+			sepNavSelRange = "{104, 0}";
+			sepNavVisRange = "{0, 106}";
 		};
 	};
 	8C5A20FE1213BCA000F5FA34 /* PBXBookmark */ = {
@@ -197,11 +139,42 @@
 		fRef = 1DDD58150DA1D0A300B32029 /* English */;
 		name = "MainMenu.xib (English)";
 	};
-	8C5A20FF1213BCA200F5FA34 /* PBXBookmark */ = {
+	8C5A21D11213D9B000F5FA34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
+		name = "InfoPlist.strings: 5";
+		rLen = 0;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 102;
+		vrLoc = 0;
+	};
+	8C5A21D21213D9B000F5FA34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 7";
+		rLen = 27;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 114;
+		vrLoc = 0;
+	};
+	8C5A21D31213D9B000F5FA34 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* douban_fm-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mmac/codes/Douban.fm.osx/douban_fm-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8C5A21D41213D9B000F5FA34 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 8C5A20E51213942700F5FA34 /* douban.icns */;
 	};
-	8C5A21001213BCA200F5FA34 /* PBXTextBookmark */ = {
+	8C5A21D51213D9B000F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
 		name = "main.m: 10";
@@ -211,27 +184,61 @@
 		vrLen = 238;
 		vrLoc = 0;
 	};
-	8C5A21011213BCA200F5FA34 /* PBXTextBookmark */ = {
+	8C5A21D61213D9B000F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
-		name = "InfoPlist.strings: 1";
+		fRef = 256AC3F00F4B6AF500CF3369 /* douban_fm_Prefix.pch */;
+		name = "douban_fm_Prefix.pch: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 45;
+		vrLen = 149;
 		vrLoc = 0;
 	};
-	8C5A21021213BCA200F5FA34 /* PBXTextBookmark */ = {
+	8C5A21D71213D9B000F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 3";
+		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
+		name = "douban_fmAppDelegate.m: 141";
 		rLen = 0;
-		rLoc = 114;
+		rLoc = 3377;
 		rType = 0;
-		vrLen = 45;
+		vrLen = 761;
+		vrLoc = 2647;
+	};
+	8C5A21D81213D9B000F5FA34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
+		name = "douban_fmAppDelegate.h: 12";
+		rLen = 8;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 680;
 		vrLoc = 0;
 	};
-	8C5A21031213BCA200F5FA34 /* PlistBookmark */ = {
+	8C5A21D91213D9B000F5FA34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
+		name = "douban_fmAppDelegate.h: 12";
+		rLen = 8;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 0;
+	};
+	8C5A21EE1213DE0600F5FA34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
+		name = "douban_fmAppDelegate.h: 12";
+		rLen = 8;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	8C5A21EF1213DE0600F5FA34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8C5A20E51213942700F5FA34 /* douban.icns */;
+	};
+	8C5A21F01213DE0600F5FA34 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* douban_fm-Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -240,102 +247,66 @@
 		);
 		name = "/Users/mmac/codes/Douban.fm.osx/douban_fm-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
-	8C5A21041213BCA200F5FA34 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* douban_fm-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleDevelopmentRegion,
-		);
-		name = "/Users/mmac/codes/Douban.fm.osx/douban_fm-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
+	8C5A21F11213DE0600F5FA34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 7";
+		rLen = 27;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 114;
+		vrLoc = 0;
 	};
-	8C5A210B1213BE8500F5FA34 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* douban_fm-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleExecutable,
-		);
-		name = "/Users/mmac/codes/Douban.fm.osx/douban_fm-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8C5A210C1213BE8500F5FA34 /* PBXTextBookmark */ = {
+	8C5A21F21213DE0600F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 089C165DFE840E0CC02AAC07 /* English */;
 		name = "InfoPlist.strings: 3";
-		rLen = 35;
+		rLen = 0;
 		rLoc = 45;
 		rType = 0;
-		vrLen = 80;
+		vrLen = 112;
 		vrLoc = 0;
 	};
-	8C5A210D1213BE8500F5FA34 /* PBXTextBookmark */ = {
+	8C5A22031213DE3500F5FA34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 7";
+		rLen = 0;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 110;
+		vrLoc = 0;
+	};
+	8C5A220B1213DF2100F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
-		name = "InfoPlist.strings: 1";
+		name = "InfoPlist.strings: 5";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 104;
 		rType = 0;
-		vrLen = 45;
+		vrLen = 106;
 		vrLoc = 0;
 	};
-	8C5A210E1213BE8500F5FA34 /* PBXTextBookmark */ = {
+	8C5A220C1213DF2100F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
-		name = "InfoPlist.strings: 3";
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 7";
 		rLen = 0;
-		rLoc = 74;
+		rLoc = 91;
 		rType = 0;
-		vrLen = 75;
+		vrLen = 110;
 		vrLoc = 0;
 	};
-	8C5A21151213BFAE00F5FA34 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* douban_fm-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleExecutable,
-		);
-		name = "/Users/mmac/codes/Douban.fm.osx/douban_fm-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8C5A21161213BFAE00F5FA34 /* PBXTextBookmark */ = {
+	8C5A220D1213DF2100F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 089C165DFE840E0CC02AAC07 /* English */;
 		name = "InfoPlist.strings: 3";
 		rLen = 0;
-		rLoc = 114;
+		rLoc = 85;
 		rType = 0;
-		vrLen = 81;
-		vrLoc = 0;
-	};
-	8C5A21171213BFAE00F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 74;
-		rType = 0;
-		vrLen = 75;
-		vrLoc = 0;
-	};
-	8C5A21181213BFAE00F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 102;
-		rType = 0;
-		vrLen = 76;
+		vrLen = 118;
 		vrLoc = 0;
 	};
 	8C9DD46211E2CCE500BDDE83 /* Douban.FM */ = {
@@ -382,58 +353,25 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	8C9DD51E11E2CF3900BDDE83 /* PBXTextBookmark */ = {
+	8CFF1B631214D979003B3194 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 1";
+		name = "InfoPlist.strings: 3";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 85;
 		rType = 0;
-		vrLen = 45;
+		vrLen = 118;
 		vrLoc = 0;
 	};
-	8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.icns;
-		name = doubanfm.icns;
-		path = /Users/mmac/codes/Douban.fm.osx/doubanfm.icns;
-		sourceTree = "<absolute>";
-	};
-	8C9DD67311E34BC600BDDE83 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8C9DD52B11E2D02F00BDDE83 /* doubanfm.icns */;
-	};
-	8CB0462711E5FCA100D10595 /* PBXTextBookmark */ = {
+	8CFF1B801214E603003B3194 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
-		name = "douban_fmAppDelegate.h: 12";
-		rLen = 8;
-		rLoc = 256;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 85;
 		rType = 0;
-		vrLen = 744;
+		vrLen = 118;
 		vrLoc = 0;
-	};
-	8CBD309811E45E6F000D753C /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* douban_fm-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			LSUIElement,
-		);
-		name = "/Users/mmac/codes/douban.fm/douban_fm-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8CD67A8411E869C7004D1095 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */;
-		name = "douban_fmAppDelegate.m: 144";
-		rLen = 0;
-		rLoc = 3398;
-		rType = 0;
-		vrLen = 904;
-		vrLoc = 2582;
 	};
 	8D1107260486CEB800E47090 /* Douban.FM */ = {
 		activeExec = 0;
