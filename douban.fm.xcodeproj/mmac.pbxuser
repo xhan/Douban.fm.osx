@@ -33,6 +33,7 @@
 		activeExecutable = 8C9DD46211E2CCE500BDDE83 /* Douban.FM */;
 		activeTarget = 8D1107260486CEB800E47090 /* Douban.FM */;
 		addToTargets = (
+			8D1107260486CEB800E47090 /* Douban.FM */,
 		);
 		codeSenseManager = 8C9DD46C11E2CCE900BDDE83 /* Code sense */;
 		executables = (
@@ -83,30 +84,25 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 303356278;
-			PBXWorkspaceStateSaveDate = 303356278;
+			PBXPerProjectTemplateStateSaveDate = 303994837;
+			PBXWorkspaceStateSaveDate = 303994837;
 		};
 		perUserProjectItems = {
-			8C5A21D11213D9B000F5FA34 = 8C5A21D11213D9B000F5FA34 /* PBXTextBookmark */;
-			8C5A21D21213D9B000F5FA34 = 8C5A21D21213D9B000F5FA34 /* PBXTextBookmark */;
-			8C5A21D31213D9B000F5FA34 = 8C5A21D31213D9B000F5FA34 /* PlistBookmark */;
-			8C5A21D41213D9B000F5FA34 = 8C5A21D41213D9B000F5FA34 /* PBXBookmark */;
+			8C242A77121E97D7000EF158 /* PBXBookmark */ = 8C242A77121E97D7000EF158 /* PBXBookmark */;
 			8C5A21D51213D9B000F5FA34 = 8C5A21D51213D9B000F5FA34 /* PBXTextBookmark */;
 			8C5A21D61213D9B000F5FA34 = 8C5A21D61213D9B000F5FA34 /* PBXTextBookmark */;
 			8C5A21D71213D9B000F5FA34 = 8C5A21D71213D9B000F5FA34 /* PBXTextBookmark */;
-			8C5A21D81213D9B000F5FA34 = 8C5A21D81213D9B000F5FA34 /* PBXTextBookmark */;
-			8C5A21D91213D9B000F5FA34 = 8C5A21D91213D9B000F5FA34 /* PBXTextBookmark */;
 			8C5A21EE1213DE0600F5FA34 = 8C5A21EE1213DE0600F5FA34 /* PBXTextBookmark */;
 			8C5A21EF1213DE0600F5FA34 = 8C5A21EF1213DE0600F5FA34 /* PBXBookmark */;
 			8C5A21F01213DE0600F5FA34 = 8C5A21F01213DE0600F5FA34 /* PlistBookmark */;
-			8C5A21F11213DE0600F5FA34 = 8C5A21F11213DE0600F5FA34 /* PBXTextBookmark */;
-			8C5A21F21213DE0600F5FA34 = 8C5A21F21213DE0600F5FA34 /* PBXTextBookmark */;
-			8C5A22031213DE3500F5FA34 = 8C5A22031213DE3500F5FA34 /* PBXTextBookmark */;
 			8C5A220B1213DF2100F5FA34 = 8C5A220B1213DF2100F5FA34 /* PBXTextBookmark */;
-			8C5A220C1213DF2100F5FA34 = 8C5A220C1213DF2100F5FA34 /* PBXTextBookmark */;
-			8C5A220D1213DF2100F5FA34 = 8C5A220D1213DF2100F5FA34 /* PBXTextBookmark */;
-			8CFF1B631214D979003B3194 /* PBXTextBookmark */ = 8CFF1B631214D979003B3194 /* PBXTextBookmark */;
-			8CFF1B801214E603003B3194 /* PBXTextBookmark */ = 8CFF1B801214E603003B3194 /* PBXTextBookmark */;
+			8CFF1B861214FCAA003B3194 = 8CFF1B861214FCAA003B3194 /* PBXTextBookmark */;
+			8CFF1B871214FCAA003B3194 = 8CFF1B871214FCAA003B3194 /* PBXBookmark */;
+			8CFF1B881214FCAA003B3194 = 8CFF1B881214FCAA003B3194 /* PBXBookmark */;
+			8CFF1B891214FCAA003B3194 = 8CFF1B891214FCAA003B3194 /* PBXBookmark */;
+			8CFF1B8A1214FCAA003B3194 = 8CFF1B8A1214FCAA003B3194 /* PBXBookmark */;
+			8CFF1B8B1214FCAA003B3194 = 8CFF1B8B1214FCAA003B3194 /* PBXBookmark */;
+			8CFF1B8C1214FCAA003B3194 = 8CFF1B8C1214FCAA003B3194 /* PBXBookmark */;
 		};
 		sourceControlManager = 8C9DD46B11E2CCE900BDDE83 /* Source Control */;
 		userBookmarkGroup = 8C5A20BA12138D6400F5FA34 /* PBXBookmarkGroup */;
@@ -119,6 +115,10 @@
 			sepNavSelRange = "{141, 0}";
 			sepNavVisRange = "{0, 238}";
 		};
+	};
+	8C242A77121E97D7000EF158 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8CFF1B821214E636003B3194 /* 1281578356_songbird.png */;
 	};
 	8C5A20BA12138D6400F5FA34 /* PBXBookmarkGroup */ = {
 		isa = PBXBookmarkGroup;
@@ -138,41 +138,6 @@
 		isa = PBXBookmark;
 		fRef = 1DDD58150DA1D0A300B32029 /* English */;
 		name = "MainMenu.xib (English)";
-	};
-	8C5A21D11213D9B000F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
-		name = "InfoPlist.strings: 5";
-		rLen = 0;
-		rLoc = 106;
-		rType = 0;
-		vrLen = 102;
-		vrLoc = 0;
-	};
-	8C5A21D21213D9B000F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 7";
-		rLen = 27;
-		rLoc = 91;
-		rType = 0;
-		vrLen = 114;
-		vrLoc = 0;
-	};
-	8C5A21D31213D9B000F5FA34 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* douban_fm-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/mmac/codes/Douban.fm.osx/douban_fm-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8C5A21D41213D9B000F5FA34 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8C5A20E51213942700F5FA34 /* douban.icns */;
 	};
 	8C5A21D51213D9B000F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -204,26 +169,6 @@
 		vrLen = 761;
 		vrLoc = 2647;
 	};
-	8C5A21D81213D9B000F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
-		name = "douban_fmAppDelegate.h: 12";
-		rLen = 8;
-		rLoc = 256;
-		rType = 0;
-		vrLen = 680;
-		vrLoc = 0;
-	};
-	8C5A21D91213D9B000F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
-		name = "douban_fmAppDelegate.h: 12";
-		rLen = 8;
-		rLoc = 256;
-		rType = 0;
-		vrLen = 680;
-		vrLoc = 0;
-	};
 	8C5A21EE1213DE0600F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 256AC3D80F4B6AC300CF3369 /* douban_fmAppDelegate.h */;
@@ -249,36 +194,6 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	8C5A21F11213DE0600F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 7";
-		rLen = 27;
-		rLoc = 91;
-		rType = 0;
-		vrLen = 114;
-		vrLoc = 0;
-	};
-	8C5A21F21213DE0600F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 45;
-		rType = 0;
-		vrLen = 112;
-		vrLoc = 0;
-	};
-	8C5A22031213DE3500F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 7";
-		rLen = 0;
-		rLoc = 91;
-		rType = 0;
-		vrLen = 110;
-		vrLoc = 0;
-	};
 	8C5A220B1213DF2100F5FA34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8C5A20FB1213B20700F5FA34 /* zh_cn */;
@@ -287,26 +202,6 @@
 		rLoc = 104;
 		rType = 0;
 		vrLen = 106;
-		vrLoc = 0;
-	};
-	8C5A220C1213DF2100F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 7";
-		rLen = 0;
-		rLoc = 91;
-		rType = 0;
-		vrLen = 110;
-		vrLoc = 0;
-	};
-	8C5A220D1213DF2100F5FA34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 85;
-		rType = 0;
-		vrLen = 118;
 		vrLoc = 0;
 	};
 	8C9DD46211E2CCE500BDDE83 /* Douban.FM */ = {
@@ -353,7 +248,7 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	8CFF1B631214D979003B3194 /* PBXTextBookmark */ = {
+	8CFF1B861214FCAA003B3194 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 089C165DFE840E0CC02AAC07 /* English */;
 		name = "InfoPlist.strings: 3";
@@ -363,15 +258,29 @@
 		vrLen = 118;
 		vrLoc = 0;
 	};
-	8CFF1B801214E603003B3194 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 85;
-		rType = 0;
-		vrLen = 118;
-		vrLoc = 0;
+	8CFF1B871214FCAA003B3194 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8CFF1B811214E61A003B3194 /* DoubanICON.512x512-75.png */;
+	};
+	8CFF1B881214FCAA003B3194 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8CFF1B851214E636003B3194 /* 1281579984_music.gif */;
+	};
+	8CFF1B891214FCAA003B3194 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8CFF1B841214E636003B3194 /* 1281579938_iMusic.png */;
+	};
+	8CFF1B8A1214FCAA003B3194 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8CFF1B831214E636003B3194 /* 1281579857_Folder-Music.png */;
+	};
+	8CFF1B8B1214FCAA003B3194 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8CFF1B821214E636003B3194 /* 1281578356_songbird.png */;
+	};
+	8CFF1B8C1214FCAA003B3194 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8CFF1B821214E636003B3194 /* 1281578356_songbird.png */;
 	};
 	8D1107260486CEB800E47090 /* Douban.FM */ = {
 		activeExec = 0;

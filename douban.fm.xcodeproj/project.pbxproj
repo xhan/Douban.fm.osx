@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* douban_fmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* douban_fmAppDelegate.m */; };
+		8C242A80121EA7DF000EF158 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C242A7F121EA7DF000EF158 /* Default.png */; };
 		8C5A20E61213942700F5FA34 /* douban.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8C5A20E51213942700F5FA34 /* douban.icns */; };
 		8C9DD47011E2CDEA00BDDE83 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9DD46F11E2CDEA00BDDE83 /* WebKit.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -27,6 +28,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8C242A7F121EA7DF000EF158 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8C5A20E51213942700F5FA34 /* douban.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = douban.icns; sourceTree = "<group>"; };
 		8C5A20EF1213A1F700F5FA34 /* zh_cn */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_cn; path = zh_cn.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8C5A20FB1213B20700F5FA34 /* zh_cn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_cn; path = zh_cn.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8C242A7F121EA7DF000EF158 /* Default.png */,
 				8C5A20E51213942700F5FA34 /* douban.icns */,
 				8D1107310486CEB800E47090 /* douban_fm-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -197,6 +200,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				8C5A20E61213942700F5FA34 /* douban.icns in Resources */,
+				8C242A80121EA7DF000EF158 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

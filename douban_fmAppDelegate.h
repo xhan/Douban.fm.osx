@@ -16,8 +16,17 @@
 	NSStatusItem* statusItem;
 	
 	NSMenuItem* itemEnableDock;
+	
+	
+	NSView* splashView;
+	NSTextFieldCell* notifyFieldCell;
+	NSProgressIndicator* activityIndicator;
 }
 
+@property (nonatomic, retain) IBOutlet NSTextFieldCell *notifyFieldCell;
+@property (nonatomic, retain) IBOutlet NSProgressIndicator *activityIndicator;
+
+@property (nonatomic, retain) IBOutlet NSView *splashView;
 @property (nonatomic, retain) IBOutlet NSMenuItem *itemEnableDock;
 @property (nonatomic, retain) IBOutlet NSMenu *statusMenu;
 @property (nonatomic, retain) IBOutlet WebView *webView;
@@ -37,3 +46,6 @@
  finished loading
  title: 不眠 - 豆瓣电台
 */
+
+
+

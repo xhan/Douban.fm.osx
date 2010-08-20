@@ -10,6 +10,10 @@
 
 @implementation douban_fmAppDelegate
 
+@synthesize notifyFieldCell;
+@synthesize activityIndicator;
+
+@synthesize splashView;
 @synthesize itemEnableDock;
 @synthesize statusMenu;
 @synthesize webView;
@@ -21,14 +25,13 @@
 	[webView setResourceLoadDelegate:self];
 	[webView setMainFrameURL:@"http://douban.fm/radio"];
 	
-	
-	
+	[activityIndicator startAnimation:nil];	
 }
 
 
 - (void)awakeFromNib
 {
-	NSLog(@"awake");
+//	NSLog(@"awake");
 //	[super awakeFromNib];
 	
 	/*
@@ -87,6 +90,9 @@
 	 
 
 - (void)dealloc {
+	[notifyFieldCell release], notifyFieldCell = nil;
+	[activityIndicator release], activityIndicator = nil;
+	[splashView release], splashView = nil;
 	[itemEnableDock release], itemEnableDock = nil;
 	[statusMenu release], statusMenu = nil;
 	[webView release], webView = nil;
@@ -107,42 +113,29 @@
 
 - (void)webView:(WebView *)sender didStartProvisionalLoadForFrame:(WebFrame *)frame
 {
-	NSLog(@"start loading");
+//	NSLog(@"start loading");
 }
 
 - (void)webView:(WebView *)sender didFailProvisionalLoadWithError:(NSError *)error forFrame:(WebFrame *)frame
 {
-	NSLog(@"opps, load failed");
+//	NSLog(@"opps, load failed");
+	[notifyFieldCell setStringValue:@"Douban is sleeping, call me later!"];
 }
 
 - (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame
 {
-	NSLog(@"finished loading");
-	
+	//NSLog(@"finished loading");
+	[activityIndicator stopAnimation:nil];
+	[splashView removeFromSuperview];
 }
 
 
-#pragma mark -
-#pragma mark resource Delegates
-/*
--(void)webView:(WebView *)sender
-	  resource:(id)identifier
-	didFinishLoadingFromDataSource:(WebDataSource *)dataSource
-{
-//    resourceCompletedCount++;
-    // Update the status message
-  //  [self updateResourceStatus];
-	NSLog(@"finish loading resource :%@",dataSource);
-//	NSLog(@"%@",[dataSource data]);
-	WebResource* resource = [dataSource mainResource];
-//	NSLog(@"%@ - %@ - %@",[resource MIMEType],[resource textEncodingName], [resource URL]);
-	NSString* str = [[NSString alloc] initWithData:[dataSource data] encoding:NSUTF8StringEncoding];
-	NSLog(@"%@",str);
-	[str release];
-}
- */
 
 @end
+
+
+
+
 
 
 
