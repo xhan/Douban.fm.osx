@@ -2,3 +2,5 @@
 
 CFBundleDisplayName = "Douban FM";
 CFBundleName = "Douban FM";
+
+CFBundleShortVersionString = "0.4 final";

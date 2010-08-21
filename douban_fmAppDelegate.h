@@ -10,14 +10,7 @@
 #import <WebKit/WebKit.h>
 @interface douban_fmAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
-	WebView *webView;
-	
-	NSMenu* statusMenu;
-	NSStatusItem* statusItem;
-	
-	NSMenuItem* itemEnableDock;
-	
-	
+	WebView *webView;	
 	NSView* splashView;
 	NSTextFieldCell* notifyFieldCell;
 	NSProgressIndicator* activityIndicator;
@@ -27,10 +20,9 @@
 @property (nonatomic, retain) IBOutlet NSProgressIndicator *activityIndicator;
 
 @property (nonatomic, retain) IBOutlet NSView *splashView;
-@property (nonatomic, retain) IBOutlet NSMenuItem *itemEnableDock;
-@property (nonatomic, retain) IBOutlet NSMenu *statusMenu;
 @property (nonatomic, retain) IBOutlet WebView *webView;
 @property (assign) IBOutlet NSWindow *window;
+
 
 @end
 

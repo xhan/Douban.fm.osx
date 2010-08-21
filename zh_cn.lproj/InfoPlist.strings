@@ -2,3 +2,5 @@
 
 CFBundleDisplayName = "豆瓣电台";
 CFBundleName = "豆瓣电台";
+
+CFBundleShortVersionString = "0.4 最终版";

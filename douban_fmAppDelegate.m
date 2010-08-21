@@ -14,13 +14,14 @@
 @synthesize activityIndicator;
 
 @synthesize splashView;
-@synthesize itemEnableDock;
-@synthesize statusMenu;
 @synthesize webView;
 @synthesize window;
 
+
+#pragma mark -
+#pragma mark life cycle
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-//	NSLog(@"finish launching");
 	[webView setFrameLoadDelegate:self];
 	[webView setResourceLoadDelegate:self];
 	[webView setMainFrameURL:@"http://douban.fm/radio"];
@@ -28,87 +29,23 @@
 	[activityIndicator startAnimation:nil];	
 }
 
-
-- (void)awakeFromNib
-{
-//	NSLog(@"awake");
-//	[super awakeFromNib];
-	
-	/*
-	 1. NSVariableStatusItemLength -Makes the status item length dynamic, adjusting to the width of its contents.
-	 2. NSSquareStatusItemLength – Sets the status item length to the status bar thickness.
-
-	 */
-	
-	/*
-	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain]; 
-	[statusItem setMenu:statusMenu];
-	[statusItem setTitle:@"*FM*"];
-
-	
-	[statusItem setHighlightMode:YES];
-	[itemEnableDock setTarget:self];
-	[itemEnableDock setAction:@selector(onItemEnableDockClick:)];
-	*/
-}
-
-- (void)onItemEnableDockClick:(id)sender
-{
-	switch ([itemEnableDock state]) {
-		case NSOnState:
-		{
-			[itemEnableDock setState:NSOffState];
-			
-			//NSApplicationPresentationOptions options = NSApplicationPresentationHideDock ;
-			
-			//[NSApp setPresentationOptions:options];
-			
-			//restart to make it works
-			
-//			showDockIcon = ![[[[NSBundle mainBundle] infoDictionary] objectForKey:@"LSUIElement"] boolValue];
-			
-//			[[NSUserDefaults standardUserDefaults] boolForKey:PREF_HIDE_DOCK_ICON]
-		}
-			break;
-		case NSOffState:
-		{
-			[itemEnableDock setState:NSOnState];
-			
-			ProcessSerialNumber psn = { 0, kCurrentProcess }; 
-			OSStatus returnCode = TransformProcessType(&psn, kProcessTransformToForegroundApplication);
-			if( returnCode != 0) {
-				NSLog(@"Could not bring the application to front. Error %d", returnCode);
-			}
-			
-		}
-			break;
-	
-		default:
-			break;
-	}
-}
 	 
-
 - (void)dealloc {
 	[notifyFieldCell release], notifyFieldCell = nil;
 	[activityIndicator release], activityIndicator = nil;
 	[splashView release], splashView = nil;
-	[itemEnableDock release], itemEnableDock = nil;
-	[statusMenu release], statusMenu = nil;
 	[webView release], webView = nil;
 	[super dealloc];
 }
 
-#pragma mark Delegates
-#pragma mark -
 
+#pragma mark -
+#pragma mark Delegates
 
 
 - (void)webView:(WebView *)sender didReceiveTitle:(NSString *)title forFrame:(WebFrame *)frame 
 {
-	//@" - 豆瓣电台" or 豆瓣电台
-	[window setTitle:title]; 
-	
+	[window setTitle:title];
 }
 
 - (void)webView:(WebView *)sender didStartProvisionalLoadForFrame:(WebFrame *)frame
@@ -124,11 +61,16 @@
 
 - (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame
 {
-	//NSLog(@"finished loading");
-	[activityIndicator stopAnimation:nil];
-	[splashView removeFromSuperview];
+	//NSLog(@"finished loading");	
+	[self performSelector:@selector(removeSplashView) withObject:nil afterDelay:1];	
 }
 
+
+- (void)removeSplashView
+{
+	[activityIndicator stopAnimation:nil];
+	[splashView removeFromSuperview];	
+}
 
 
 @end

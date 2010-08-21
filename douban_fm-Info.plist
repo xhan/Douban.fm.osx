@@ -14,12 +14,8 @@
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>0.3</string>
 	<key>CFBundleSignature</key>
-	<string>xhan</string>
-	<key>CFBundleVersion</key>
-	<string></string>
+	<string>????</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSMainNibFile</key>
@@ -28,5 +24,7 @@
 	<string>NSApplication</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2010, ixhan.com</string>
 </dict>
 </plist>

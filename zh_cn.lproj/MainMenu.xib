@@ -21,9 +21,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="535"/>
-			<integer value="545"/>
 			<integer value="491"/>
+			<integer value="545"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -220,50 +219,6 @@
 			</object>
 			<object class="NSCustomObject" id="755631768">
 				<string key="NSClassName">NSFontManager</string>
-			</object>
-			<object class="NSMenu" id="39114505">
-				<string key="NSTitle"/>
-				<object class="NSMutableArray" key="NSMenuItems">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="NSMenuItem" id="1015809422">
-						<reference key="NSMenu" ref="39114505"/>
-						<string key="NSTitle">在 Dock 显示</string>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<int key="NSState">1</int>
-						<reference key="NSOnImage" ref="35465992"/>
-						<reference key="NSMixedImage" ref="502551668"/>
-					</object>
-					<object class="NSMenuItem" id="704700720">
-						<reference key="NSMenu" ref="39114505"/>
-						<string key="NSTitle">隐藏</string>
-						<string key="NSKeyEquiv">h</string>
-						<int key="NSKeyEquivModMask">1048576</int>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="35465992"/>
-						<reference key="NSMixedImage" ref="502551668"/>
-					</object>
-					<object class="NSMenuItem" id="778309864">
-						<reference key="NSMenu" ref="39114505"/>
-						<bool key="NSIsDisabled">YES</bool>
-						<bool key="NSIsSeparator">YES</bool>
-						<string key="NSTitle"/>
-						<string key="NSKeyEquiv"/>
-						<int key="NSKeyEquivModMask">1048576</int>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="35465992"/>
-						<reference key="NSMixedImage" ref="502551668"/>
-					</object>
-					<object class="NSMenuItem" id="1032738469">
-						<reference key="NSMenu" ref="39114505"/>
-						<string key="NSTitle">退出 </string>
-						<string key="NSKeyEquiv">q</string>
-						<int key="NSKeyEquivModMask">1048576</int>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="35465992"/>
-						<reference key="NSMixedImage" ref="502551668"/>
-					</object>
-				</object>
 			</object>
 			<object class="NSWindowTemplate" id="896162825">
 				<int key="NSWindowStyleMask">15</int>
@@ -482,38 +437,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">statusMenu</string>
-						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="39114505"/>
-					</object>
-					<int key="connectionID">539</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">itemEnableDock</string>
-						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="1015809422"/>
-					</object>
-					<int key="connectionID">540</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">terminate:</string>
-						<reference key="source" ref="1050"/>
-						<reference key="destination" ref="1032738469"/>
-					</object>
-					<int key="connectionID">543</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">hide:</string>
-						<reference key="source" ref="1014"/>
-						<reference key="destination" ref="704700720"/>
-					</object>
-					<int key="connectionID">544</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">window</string>
 						<reference key="source" ref="976324537"/>
 						<reference key="destination" ref="896162825"/>
@@ -718,39 +641,6 @@
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">535</int>
-						<reference key="object" ref="39114505"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="1015809422"/>
-							<reference ref="704700720"/>
-							<reference ref="778309864"/>
-							<reference ref="1032738469"/>
-						</object>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">status menu</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">536</int>
-						<reference key="object" ref="1015809422"/>
-						<reference key="parent" ref="39114505"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">537</int>
-						<reference key="object" ref="704700720"/>
-						<reference key="parent" ref="39114505"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">541</int>
-						<reference key="object" ref="778309864"/>
-						<reference key="parent" ref="39114505"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">542</int>
-						<reference key="object" ref="1032738469"/>
-						<reference key="parent" ref="39114505"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">545</int>
 						<reference key="object" ref="896162825"/>
 						<object class="NSMutableArray" key="children">
@@ -857,14 +747,6 @@
 					<string>491.IBEditorWindowLastContentRect</string>
 					<string>491.IBPluginDependency</string>
 					<string>492.IBPluginDependency</string>
-					<string>535.IBEditorWindowLastContentRect</string>
-					<string>535.IBPluginDependency</string>
-					<string>536.IBPluginDependency</string>
-					<string>537.IBPluginDependency</string>
-					<string>541.IBPluginDependency</string>
-					<string>541.ImportedFromIB2</string>
-					<string>542.IBPluginDependency</string>
-					<string>542.ImportedFromIB2</string>
 					<string>545.IBEditorWindowLastContentRect</string>
 					<string>545.IBPluginDependency</string>
 					<string>545.IBWindowTemplateEditedContentRect</string>
@@ -920,26 +802,18 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{398, 830}, {144, 20}}</string>
+					<string>{{398, 736}, {144, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
 					<string>{{6, 978}, {478, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{484, 807}, {160, 23}}</string>
+					<string>{{484, 713}, {160, 23}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{521, 241}, {162, 73}}</string>
+					<string>{{238, 217}, {420, 186}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<integer value="1"/>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<integer value="1"/>
-					<string>{{407, 217}, {420, 186}}</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{407, 217}, {420, 186}}</string>
+					<string>{{238, 217}, {420, 186}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<boolean value="YES"/>
@@ -1002,20 +876,16 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>activityIndicator</string>
-							<string>itemEnableDock</string>
 							<string>notifyFieldCell</string>
 							<string>splashView</string>
-							<string>statusMenu</string>
 							<string>webView</string>
 							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSProgressIndicator</string>
-							<string>NSMenuItem</string>
 							<string>NSTextFieldCell</string>
 							<string>NSView</string>
-							<string>NSMenu</string>
 							<string>WebView</string>
 							<string>NSWindow</string>
 						</object>
