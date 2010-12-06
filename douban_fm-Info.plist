@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>zh_cn</string>
+	<string>en_US</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -26,5 +26,9 @@
 	<true/>
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2010, ixhan.com</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.music</string>
 </dict>
 </plist>

@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
-@interface douban_fmAppDelegate : NSObject <NSApplicationDelegate> {
+@interface douban_fmAppDelegate : NSObject <NSApplicationDelegate,NSWindowDelegate> {
     NSWindow *window;
 	WebView *webView;	
 	NSView* splashView;
